@@ -6,6 +6,12 @@
 
 Faça um programa de computador que transforme um sinal x ∈ R n em uma aproximação \~x, contida em um subespaço U. Dada uma base B para este subespaço, obtenha \[x]B ∈ R^k, onde k = dim (U).
 
+**O projeto está disposto publicamente no github no endereço**
+```
+https://github.com/Lucas-Amaral-Santos/algebra_linear_computacional.git
+```
+
+
 **Instalação dos pacotes**
 
 Criar seu ambiente virtual.
@@ -13,6 +19,8 @@ Criar seu ambiente virtual.
 ```
 pip install -r requirements.txt
 ```
+
+Executar o código **lista2exerc3.py**
 
 **Da implementação**
 A implementação é bem simples. 

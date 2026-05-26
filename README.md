@@ -2,7 +2,7 @@
 
 ## Aluno: Lucas Amaral
 
-**Exercício 3:**
+#### **Exercício 3:**
 
 Faça um programa de computador que transforme um sinal x ∈ R n em uma aproximação \~x, contida em um subespaço U. Dada uma base B para este subespaço, obtenha \[x]B ∈ R^k, onde k = dim (U).
 

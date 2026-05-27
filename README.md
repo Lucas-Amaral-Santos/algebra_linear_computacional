@@ -2,7 +2,7 @@
 
 ## Aluno: Lucas Amaral
 
-#### **Exercício 3:**
+### **Exercício 3:**
 
 Faça um programa de computador que transforme um sinal x ∈ R n em uma aproximação \~x, contida em um subespaço U. Dada uma base B para este subespaço, obtenha \[x]B ∈ R^k, onde k = dim (U).
 
@@ -38,9 +38,7 @@ Na main:
 **Nota:** Funções auxiliares: *check_orthonormal* e *gram_schmidt*. Tem exemplos de algumas bases B e alguns sinais x.
 
 
-
-
-#### **Exercício 4:**
+### **Exercício 4:**
 Faça um programa de computador que encontre uma aproximação de um dado 
 x ∈ R^n obtida pela consideração de apenas os k maiores coeficientes de [x]B. k < n  ́
 e um inteiro positivo fornecido como parâmetro de entrada, e B deve ser uma base de 

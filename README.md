@@ -11,7 +11,6 @@ Faça um programa de computador que transforme um sinal x ∈ R n em uma aproxim
 https://github.com/Lucas-Amaral-Santos/algebra_linear_computacional.git
 ```
 
-
 **Instalação dos pacotes**
 
 Criar seu ambiente virtual.

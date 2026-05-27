@@ -35,6 +35,50 @@ Na main:
 
 
 **Nota:** Funções auxiliares: *check_orthonormal* e *gram_schmidt*.
+
+
+
+
+#### **Exercício 4:**
+Faça um programa de computador que encontre uma aproximação de um dado 
+x ∈ R^n obtida pela consideração de apenas os k maiores coeficientes de [x]B. k < n  ́
+e um inteiro positivo fornecido como parâmetro de entrada, e B deve ser uma base de 
+wavelets de Haar, ou de séries de Fourier.
+
+**O projeto está disposto publicamente no github no endereço**
+```
+https://github.com/Lucas-Amaral-Santos/algebra_linear_computacional.git
+```
+
+
+**Instalação dos pacotes**
+
+Criar seu ambiente virtual.
+
+```
+pip install -r requirements.txt
+```
+
+Executar o código **lista2exerc4.py**
+
+**Da implementação**
+Dos parâmetros (no __init__):
+1) Toma um sinal senoidal gerado a partir de n pontos.
+2) Toma o k, que filtrgará os k maiores valores do sinal na base de Fourier.
+3) Gera uma array de n pontos que será o t dos n pontos 
+4) Chama a main que executará a Fourier, tomando como argumento o sinal x gerado, k e o base type (no caso fourier).
+
+Na main:
+5) Chama a Fourier transform (pode ser na calculado por uma formula ou pela geração de matriz)
+6) Com os coeficientes na nova base, chama a função *get_k_bigger_coefficients*
+        6.1) Ordena os valores na nova base
+        6.2) Pega os coeficientes
+        6.3) Aplica um slice em uma array cópia
+        6.4) Filtra os coeficientes remanescentes na cópia
+
+
+
+**Nota:** Funções auxiliares: *fourier_transform* e *fourier_transform_formula* (duas maneiras implementadas), *get_k_bigger_coefficients*
     
 
 

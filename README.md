@@ -75,7 +75,7 @@ Na main:
         6.2) Pega os coeficientes
         6.3) Aplica um slice em uma array cópia
         6.4) Filtra os coeficientes remanescentes na cópia
-
+7) Aplica a inversa e volta a base original
 
 
 **Nota:** Funções auxiliares: *fourier_transform* e *fourier_transform_formula* (duas maneiras implementadas), *get_k_bigger_coefficients*

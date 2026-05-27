@@ -24,7 +24,9 @@ Executar o código **lista2exerc3.py**
 
 **Da implementação**
 A implementação é bem simples. 
+
 Na main:
+
 1) Toma o vetor x que representa o sinal. Há exemplos 3-dimensionais no código.
 2) Toma a base B, checa se a base tem mais dimensões que x.
 3) Checa se a base é ortonormal:
@@ -69,6 +71,7 @@ Dos parâmetros (no __init__):
 4) Chama a main que executará a Fourier, tomando como argumento o sinal x gerado, k e o base type (no caso fourier).
 
 Na main:
+
 5) Chama a Fourier transform (pode ser na calculado por uma formula ou pela geração de matriz)
 6) Com os coeficientes na nova base, chama a função *get_k_bigger_coefficients*
         6.1) Ordena os valores na nova base

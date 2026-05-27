@@ -36,7 +36,7 @@ Na main:
 5) Aplica a operação matrix-vetor de B @ x_B para encontrar a aproximação de x, x_approx.
 
 
-**Nota:** Funções auxiliares: *check_orthonormal* e *gram_schmidt*.
+**Nota:** Funções auxiliares: *check_orthonormal* e *gram_schmidt*. Tem exemplos de algumas bases B e alguns sinais x.
 
 
 
@@ -81,7 +81,7 @@ Na main:
 7) Aplica a inversa e volta a base original
 
 
-**Nota:** Funções auxiliares: *fourier_transform* e *fourier_transform_formula* (duas maneiras implementadas), *get_k_bigger_coefficients*
+**Nota:** Funções auxiliares: *fourier_transform* e *fourier_transform_formula* (duas maneiras implementadas), *get_k_bigger_coefficients*. Tem um exemplo com cosseno com 8 pontos k=1 e k=2.
     
 
 
